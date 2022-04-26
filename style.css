@@ -80,6 +80,7 @@ h2 {
     color: #84C1D0;
     background-color: #43362C;
     background-size: 20pt;
+    padding: 20px;
 }
 
 .section {
@@ -94,6 +95,7 @@ h2 {
     margin: 10px;
     justify-content: center;
     text-align: center; 
+    font-family: Sinhala MN;
 }
 
 .achieve-img img {
@@ -149,6 +151,8 @@ button {
 
 .social  {
     width: 50px;
+    padding: 10px;
+    margin: 10px;
 }
 
 .social img {
