@@ -58,6 +58,7 @@ margin: 0 auto;
 
 p {
     color: #707070;
+    padding: 15px;
 }
 
 .bio p {
@@ -93,7 +94,9 @@ h2 {
     width: 250px;
     padding: 10px;
     margin: 10px;
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     text-align: center; 
     font-family: Sinhala MN;
 }
@@ -145,8 +148,9 @@ button {
     font-family: helvetica neue;
     font-size: 24pt;
     color: #FFFBEF;
+    display: block;
    padding: 10px 15px;
-   margin-top: 15px;
+   margin: 15px auto;
 }
 
 .social  {
@@ -162,4 +166,8 @@ button {
 .social-media {
     display: flex;
     justify-content: center;
+}
+
+.early-life img {
+    width: 100%;
 }
